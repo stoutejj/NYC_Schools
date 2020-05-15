@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NYC Schools</string>
+    <string name="tv_school_name">SCHOOL NAME</string>
+
+    <string name="tv_reading_score">CRITICAL READING SCORE</string>
+    <string name="tv_math_score">MATH SCORE</string>
+    <string name="tv_writing_score">WRITING SCORE</string>
+
+    <string name="search_bar">SEARCH SCHOOLS</string>
+    <string name="tv_school_addr">ADDRESS:\t</string>
+    <string name="btn_school_info">SCHOOL INFO</string>
+    <string name="btn_school_phone_number">CALL US</string>
+    <string name="tv_overview_paragraph">SCHOOL DESCRIPTION</string>
+    <string name="tv_phone_number">TELEPHONE</string>
+    <string name="tv_fax_number">FAX</string>
+    <string name="tv_email">EMAIL</string>
+    <string name="tv_website">WEBSITE</string>
+
+</resources>

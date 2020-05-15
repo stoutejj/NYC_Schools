@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#efefef"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_school_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/tv_school_name"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_school_addr"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/tv_school_addr"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_school_phone_number"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="15dp"
+                app:cornerRadius="10dp"
+                android:theme="@style/Button"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                app:icon="@drawable/phone"
+                android:text="@string/btn_school_phone_number"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_school_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                app:cornerRadius="10dp"
+                android:theme="@style/Button"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:text="@string/btn_school_info"
+                app:icon="@drawable/school_info"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
