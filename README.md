@@ -31,18 +31,9 @@
             2. WebBrowser
 
 ### How to Use the app 
-When the app is first launch it will fetch the list of schools as well as the list of School's SAT Scores from the respective API. Once the data is fetch it will show to the user a SearchBar and the list of schools. In the event that it was unable to fetch the data a snackbar will be displayed prompting the user to retry making the API calls. Clicling on the Call Button redirects the user to call the School. While clicking on the School Info Button redirects the user to further information on the School.
+When the app is first launch it will fetch the list of schools as well as the list of School's SAT Scores from the respective API. Once the data is fetch it will show to the user a SearchBar and the list of schools. In the event that it was unable to fetch the data a snackbar will be displayed prompting the user to retry making the API calls. Clicking on the Call Button redirects the user to call the School. While clicking on the School Info Button redirects the user to further information on the School.
 
-### Instructions
-
-**Coding Challenge: NYC Schools**
-
-**GOAL** : Verify candidate can provide a technical solution and follow instructions
-
-**REQUIREMENTS** :
-
-These requirements are rather high-level and vague. If details are omitted, it is because we will be happy with any of a wide variety of solutions. Don&#39;t worry about finding &quot;the&quot; solution. Feel free to be creative with the requirements. Your goal is to impress (but do so with clean code).
-
+**GOAL** :
 Create a browser based or native app to provide information on NYC High schools.
 
 1. Display a list of NYC High Schools.
@@ -51,14 +42,3 @@ Create a browser based or native app to provide information on NYC High schools.
 1. Display all the SAT scores - include Math, Reading and Writing.
 1. SAT data here: [https://data.cityofnewyork.us/Education/SAT-Results/f9bf-2cp4](https://data.cityofnewyork.us/Education/SAT-Results/f9bf-2cp4)
 2. It is up to you to decide what additional information to display
-
-**What is Important**
-
-- Proper function – requirements met.
-- Well constructed, easy-to-follow, commented code (especially comment hacks or workarounds made in the interest of expediency (i.e. // given more time I would prefer to wrap this in a blah blah blah pattern blah blah )).
-- Proper separation of concerns and best-practice coding patterns.
-- Defensive code that graciously handles unexpected edge cases.
-
-**What is Less Important**
-
-- Demonstrating technologies or techniques you are not already familiar with.
