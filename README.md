@@ -33,7 +33,7 @@
 ### How to Use the app 
 When the app is first launch it will fetch the list of schools as well as the list of School's SAT Scores from the respective API. Once the data is fetch it will show to the user a SearchBar and the list of schools. In the event that it was unable to fetch the data a snackbar will be displayed prompting the user to retry making the API calls. Clicking on the Call Button redirects the user to call the School. While clicking on the School Info Button redirects the user to further information on the School.
 
-**GOAL** :
+### GOAL
 Create a browser based or native app to provide information on NYC High schools.
 
 1. Display a list of NYC High Schools.
